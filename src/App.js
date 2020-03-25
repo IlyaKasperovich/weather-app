@@ -32,7 +32,7 @@ class App extends Component {
   }
 
   fetchData(city) {
-    const baseUrl = `http://api.openweathermap.org`;
+    const baseUrl = `https://api.openweathermap.org`;
     const path = `/data/2.5/weather`;
     const appId = `1ae1ff4c3061b69a92c553bf23be10a8`;
     const query = `units=metric&lang=en&appid=${appId}`;
